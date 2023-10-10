@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<!-- Thymeleaf의 문법을 사용하기 위해서 추가 -->
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Hello Thymeleaf</title>
+</head>
+<body>
+    <!-- HelloController의 model의 data라는 key 값에 담아준 값을 출력한다.
+         이때 사용하는 Thymeleaf의 문법이 "th:text" 이다.
+    -->
+    <h1>Hello, <span th:text="${name}"></span>님!</h1>
+</body>
+</html>
